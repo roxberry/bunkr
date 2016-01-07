@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="mongo" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../../../mongo/src/mongo/shell" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../mongo/src/mongo/shell" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

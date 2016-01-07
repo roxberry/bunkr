@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.bunkr.MongoJvmApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-01-07T02:50:01" hostname="DESKTOP-QN1QNU1" time="0.016">
+  <properties/>
+  <testcase name="contextLoads" classname="io.bunkr.MongoJvmApplicationTests" time="0.016"/>
+  <system-out><![CDATA[21:49:53.890 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class io.bunkr.MongoJvmApplicationTests]
+21:49:53.905 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:49:53.922 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:49:53.941 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [io.bunkr.MongoJvmApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+21:49:53.989 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@59585aef declaringClass = 'io.bunkr.MongoJvmApplicationTests', classes = '{class io.bunkr.MongoJvmApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+21:49:54.006 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [io.bunkr.MongoJvmApplicationTests]: class path resource [io/bunkr/MongoJvmApplicationTests-context.xml] does not exist
+21:49:54.007 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [io.bunkr.MongoJvmApplicationTests]: class path resource [io/bunkr/MongoJvmApplicationTestsContext.groovy] does not exist
+21:49:54.007 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [io.bunkr.MongoJvmApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:49:54.013 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [io.bunkr.MongoJvmApplicationTests]
+21:49:54.022 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [io.bunkr.MongoJvmApplicationTests]: using defaults.
+21:49:54.036 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+21:49:54.072 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13f58946, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7488ba58, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5f2f89c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@52f76fc4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d776365, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c1c4ee9]
+21:49:54.080 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.bunkr.MongoJvmApplicationTests]
+21:49:54.081 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.bunkr.MongoJvmApplicationTests]
+21:49:54.086 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.bunkr.MongoJvmApplicationTests]
+21:49:54.086 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.bunkr.MongoJvmApplicationTests]
+21:49:54.091 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7698c73 testClass = MongoJvmApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@30ed5abb testClass = MongoJvmApplicationTests, locations = '{}', classes = '{class io.bunkr.MongoJvmApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+21:49:54.094 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.bunkr.MongoJvmApplicationTests]
+21:49:54.094 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.bunkr.MongoJvmApplicationTests]
+21:49:54.098 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7698c73 testClass = MongoJvmApplicationTests, testInstance = io.bunkr.MongoJvmApplicationTests@2f40cdef, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@30ed5abb testClass = MongoJvmApplicationTests, locations = '{}', classes = '{class io.bunkr.MongoJvmApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+21:49:54.316 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:49:54.320 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:49:54.321 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+21:49:54.325 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.1.RELEASE)
+
+2016-01-06 21:49:55.245  INFO 8820 --- [    Test worker] io.bunkr.MongoJvmApplicationTests        : Starting MongoJvmApplicationTests on DESKTOP-QN1QNU1 with PID 8820 (C:\Users\mroxb\Documents\GitHub\bunkr\mongodb\jvm\build\classes\test started by mroxb in C:\Users\mroxb\Documents\GitHub\bunkr\mongodb\jvm)
+2016-01-06 21:49:55.246  INFO 8820 --- [    Test worker] io.bunkr.MongoJvmApplicationTests        : No active profile set, falling back to default profiles: default
+2016-01-06 21:49:56.047  INFO 8820 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7c612dfb: startup date [Wed Jan 06 21:49:56 EST 2016]; root of context hierarchy
+2016-01-06 21:50:00.145  INFO 8820 --- [    Test worker] o.m.m.logging.MorphiaLoggerFactory       : LoggerImplFactory set to org.mongodb.morphia.logging.jdk.JDKLoggerFactory
+2016-01-06 21:50:01.564  INFO 8820 --- [    Test worker] io.bunkr.MongoJvmApplicationTests        : Started MongoJvmApplicationTests in 7.233 seconds (JVM running for 9.058)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
