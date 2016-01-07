@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jongo:jongo:1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jongo/jongo/1.1/810ed2c126a8224ae638dbac7fa13cb1363bedaa/jongo-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jongo/jongo/1.1/a5f5c386c0cf6f3e3f04f633097579824c58bcd9/jongo-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
