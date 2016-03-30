@@ -1,2 +1,2 @@
 # bunkr
-dumping repo for spikes, prototypes
+dumping repo for spikes, prototypes and katas
